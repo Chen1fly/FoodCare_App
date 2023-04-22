@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ECECDD"
+    android:clickable="true"
+    tools:context="com.food1.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/topLayout"
+        android:orientation="vertical"
+        android:background="#EAF395"
+        >
+        <ImageView
+            android:id="@+id/leftMenuIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/img"></ImageView>
+
+        <!--菜单按钮-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="         新用户注册"
+            android:textColor="#92CD6D"
+            android:textSize="30sp"></TextView>
+
+    </RelativeLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:stretchColumns="0,3"
+        android:gravity="center_vertical"
+        >
+        <TableRow>
+            <TextView />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/login_textcolor"
+                android:textSize="20sp"
+                android:text="账    号:"/>
+            <EditText
+                android:id="@+id/register_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"/>
+            <TextView />
+        </TableRow>
+        <TableRow>
+            <TextView />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/login_textcolor"
+                android:textSize="20sp"
+                android:text="手机号:"/>
+            <EditText
+                android:id="@+id/register_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"/>
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/login_textcolor"
+                android:textSize="20sp"
+                android:text="地     址:"/>
+            <EditText
+                android:id="@+id/register_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"/>
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/login_textcolor"
+                android:textSize="20sp"
+                android:id="@+id/login_password"
+                android:text="密     码:"/>
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"/>
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/login_textcolor"
+                android:textSize="20sp"
+                android:id="@+id/confirm_password"
+                android:text="确认密码:"
+                />
+            <EditText
+                android:id="@+id/register_repass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"
+                />
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+
+            <TextView />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_register_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="注册"/>
+            <Button
+                android:id="@+id/btn_register_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="退出"/>
+        </LinearLayout>
+
+    </TableLayout>
+
+
+</RelativeLayout>

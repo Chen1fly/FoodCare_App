@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="#ECECDD"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container2"
+    android:background="#ECECDD"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <TextView
+        android:id="@+id/text_noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="65px"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/noti_pic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic1"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti1"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic2"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti2"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic3"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti3"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic4"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti4"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic5"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti5"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic6"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti6"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic7"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti7"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <TextView
+        android:id="@+id/text_noti8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic8"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="65px" />
+
+    <ImageView
+        android:id="@+id/noti_pic9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_noti8"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/noti_pic10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic9"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <ImageView
+        android:id="@+id/noti_pic11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic10"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <ImageView
+        android:id="@+id/noti_pic12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic11"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+    <ImageView
+        android:id="@+id/noti_pic13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noti_pic12"
+        android:scaleType="fitXY"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

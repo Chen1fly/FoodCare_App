@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_container0"
+        android:background="#ECECDD"
+        tools:context=".ui.home.HomeFragment"
+        app:layout_constraintHeight_default="wrap">
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/home_pic"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <ImageView
+            android:id="@+id/home_pic2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic1"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <ImageView
+            android:id="@+id/home_pic3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic2"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic3"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic4"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic5"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic6"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/home_pic8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic7"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic9"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic8"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic10"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic9"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic11"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic10"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic12"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic11"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic13"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic12"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic14"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic13"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic15"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic14"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/home_pic16"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic15"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <ImageView
+            android:id="@+id/home_pic17"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic16"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/home_pic18"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic17"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/home_pic19"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/home_pic18"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/banner"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="65px"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
