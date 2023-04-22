@@ -1,5 +1,5 @@
 # 新冠食疗/新冠食康/菜谱app安卓端    
-SpringBoot端在我的另一个仓库: ``` https://github.com/Chen1fly/FoodCare_SpringBoot ```（需要两个搭配一起使用）
+SpringBoot端在我的另一个仓库: ``` https://github.com/Chen1fly/FoodCare_SpringBoot ```（需要两个搭配一起使用）  
 如果你愿意，可以给我一个Star  
 该项目仅为demo，界面比较难看，但基本逻辑都已实现（我认为足够应付普通的毕设了），具体可以根据自己的需求变更  
 主要功能：  
