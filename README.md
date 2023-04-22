@@ -292,4 +292,6 @@ SpringBoot端在我的另一个仓库: ``` https://github.com/Chen1fly/FoodCare_
 │                  └─food1
 └─gradle
     └─wrapper
- ```
+ ```  
+ 我的邮箱``` chenyi.jug@gmail.com ```
+
